@@ -12,5 +12,14 @@ return {
   },
   allowing_the_next_vote = {
     en = "allowing the next vote"
+  },
+  always_vote = {
+    en = "Always vote"
+  },
+  option_yes = {
+    en = "Yes"
+  },
+  option_no = {
+    en = "No"
     }
 }
