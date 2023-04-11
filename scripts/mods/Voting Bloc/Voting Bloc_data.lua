@@ -47,7 +47,7 @@ return {
                       {
                         setting_id = "vote_yes",
                         type = "keybind",
-                        default_value = {"f2", "left ctrl"},
+                        default_value = {"f2"},
                         keybind_trigger = "pressed",
                         keybind_type = "function_call",
                         function_name = "voting_yes"
@@ -55,7 +55,7 @@ return {
                       {
                           setting_id = "vote_no",
                           type = "keybind",
-                          default_value = {"f3", "left ctrl"},
+                          default_value = {"f3"},
                           keybind_trigger = "pressed",
                           keybind_type = "function_call",
                           function_name = "voting_no"

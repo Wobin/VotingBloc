@@ -3,7 +3,7 @@ Title: Voting Bloc
 Author: Wobin
 Date: 08/04/2023
 Repository: https://github.com/Wobin/VotingBloc
-Version: 2.0
+Version: 2.1
 ]]--
 local mod = get_mod("Voting Bloc")
 local OPTIONS = table.enum("yes", "no")
