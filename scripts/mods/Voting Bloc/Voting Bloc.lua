@@ -3,7 +3,7 @@ Title: Voting Bloc
 Author: Wobin
 Date: 08/04/2023
 Repository: https://github.com/Wobin/VotingBloc
-Version: 2.1
+Version: 2.2
 ]]--
 local mod = get_mod("Voting Bloc")
 local OPTIONS = table.enum("yes", "no")
@@ -62,7 +62,7 @@ mod:hook_require("scripts/settings/voting/voting_templates/kick_from_mission_vot
           end        
           func(voting_id, template, params)
         else
-          mod:ShowVote(voting_id, template, params)
+          mod:showVote(voting_id, template, params)
         end
       end)
   end)
