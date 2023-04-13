@@ -2,13 +2,19 @@
 
 return {
 	mod_description = {
-		en = "When 'Automatically Vote' is set to on this mod will automatically vote on vote kicks, to prevent spamming of the team kick command. use /allowNextVote to permit a vote to be registered",
+		en = "When 'Automatically Vote' is set to on this mod will automatically vote on vote kicks, to prevent spamming of the team kick command. use /allowNextVote to permit a vote to be registered. Use /kick [1-3] to initate a vote kick on a player",
 		["zh-cn"] = "启用“自动投票”时，此模组会自动投票踢出，防止有人持续投票刷屏。使用 /allowNextVote 命令临时允许投票",
 	},
   mod_title = {
     en = "Voting Bloc",
     ["zh-cn"] = "投票屏蔽",
   },
+  initiate_vote_command = {
+    en = "kick"
+  },
+  initiate_vote_description = {
+    en = "kick [1,2,3] - Initiates a vote to kick the player at position [1,2,3]"
+    },
   allow_next_vote_command =  {
     en = "allowNextVote",
   },
@@ -68,7 +74,7 @@ return {
     en = "Voted No on the kick",
     ["zh-cn"] = "已投票拒绝踢出",
     },
-  vote_mesage_start =
+  vote_message_start =
   {
     en = "Vote initiated to kick ",
     ["zh-cn"] = "开始投票踢出 ",
@@ -76,5 +82,11 @@ return {
   vote_message_end = {
     en = " ",
     ["zh-cn"] = " ",
+  },
+  initiating_kick = {
+    en = "Initiating kick against "
+  },
+  cannot_kick_bot = {
+    en = "You cannot kick the bot "
     },
 }
