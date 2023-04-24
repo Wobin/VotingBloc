@@ -2,8 +2,8 @@
 
 return {
 	mod_description = {
-		en = "When 'Automatically Vote' is set to on this mod will automatically vote on vote kicks, to prevent spamming of the team kick command. use /allowNextVote to permit a vote to be registered. Use /kick [1-3] to initate a vote kick on a player",
-		["zh-cn"] = "启用“自动投票”时，此模组会自动投票踢出，防止有人持续投票刷屏。使用 /allowNextVote 命令临时允许投票",
+		en = "When 'Automatically Vote' is set to on this mod will automatically vote on vote kicks. Use /allowNextVote to permit a vote to be registered. Use /kick [1-3] to initate a vote kick on a player",
+		["zh-cn"] = "启用“自动投票”时，此模组会自动投票踢出。使用 /allowNextVote 命令临时允许投票",
 	},
   mod_title = {
     en = "Voting Bloc",
